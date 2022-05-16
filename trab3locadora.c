@@ -140,8 +140,8 @@ int main()
         {
           precoadicional=10*dias;
           precoadicionalbebe=80;
-          precototaladicional=precoadicionalbebe+precoadicionalpedagio;
-          precototal=precocarro+precoadicionalbebe+precoadicional;
+          precototaladicional=precoadicionalbebe+precoadicional;
+          precototal=precocarro+precoadicionalbebe+precoadicional+precoseguro;
         }
         printf("O custo total foi R$%.2f\nValor total carro R$%.2f\nValor total seguro R$%.2f\nValor total adicionais R$%.2f \n",precototal,precocarro,precoseguro,precototaladicional);
       break;
@@ -150,5 +150,5 @@ int main()
 printf("voce quer recomeçar? ");
 scanf(" %c",&continuar);
   }
-return 0;
+return 0; 
 }
